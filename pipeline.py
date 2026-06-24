@@ -27,4 +27,4 @@ df = pd.DataFrame(todos_os_dados)
 df.to_csv("dados_bcd.csv", index=False)
 
 print("\n Arquivo CSV 'dados_bcd.csv' criado com sucesso!")
-print(df.head(10))ESTRA 
+print(df.head(10))
