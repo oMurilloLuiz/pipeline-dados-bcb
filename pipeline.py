@@ -23,7 +23,7 @@ for nome, codigo in indicadores.items():
                 "valor": float(item.get("valor", 0))
             })
     
-    print(f"✅ {nome} — {len(dados)} registros coletados")
+    print(f" {nome} — {len(dados)} registros coletados")
 
 df = pd.DataFrame(todos_os_dados)
 df.to_csv("dados_bcb.csv", index=False)
