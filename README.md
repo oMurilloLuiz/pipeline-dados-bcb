@@ -25,7 +25,7 @@ git clone https://github.com/oMurilloLuiz/pipeline-dados-bcb.git
 pip install requests pandas
 
 # Execute o pipeline
-python teste.py
+python pipeline.py
 
 
 ## 📁 Estrutura do projeto
